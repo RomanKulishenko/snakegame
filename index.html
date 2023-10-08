@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
+    <title>Змейка на JavaScript</title>
+  </head>
+  <body>
+    <div id="game">
+      <div class="game-header">
+        <div class="game-score">
+          <span class="score-text">Speed:</span>
+          <span class="score-count" id="speed">0</span>
+        </div>
+        <div class="game-score">
+          <span class="score-text">Score:</span>
+          <span class="score-count" id="score">0</span>
+        </div>
+        <div class="game-score">
+          <span class="score-text">Record:</span>
+          <span class="score-count" id="record">0</span>
+        </div>
+      </div>
+      <div class="canvas-wrapper"></div>
+      <div class="game-footer">
+        <div class="keys-conf">
+          <span>Control: Arrows, Speed: key1-8, GodMode: G</span>
+        </div>
+      </div>
+    </div>
+    <script defer src="./JS/game.js" type="module"></script>
+  </body>
+</html>
